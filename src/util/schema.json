@@ -1,0 +1,168 @@
+[
+    {
+        "heading": "General",
+        "components": [
+            {
+                "componentData": [
+                    {
+                        "title": "CASE MANAGEMENT",
+                        "name": "Case Management",
+                        "type": "checkbox",
+                        "multiple": false,
+                        "dropdown": [],
+                        "group": []
+                    },
+
+                    {
+                        "title": "MAP TIMELINE",
+                        "name": "Map Timeline",
+                        "type": "checkbox",
+                        "multiple": false,
+                        "dropdown": [],
+                        "group": []
+                    },
+
+                    {
+                        "title": "VIEWS & BRIEFINGS",
+                        "name": "Views & Briefings",
+                        "type": "checkbox",
+                        "multiple": false,
+                        "dropdown": [],
+                        "group": []
+                    },
+                    {
+                        "title": "NOTIFICATIONS",
+                        "name": "Notifications",
+                        "type": "checkbox",
+                        "multiple": false,
+                        "dropdown": [],
+                        "group": []
+                    },
+                    {
+                        "title": "MASS COMMUNICATIONS",
+                        "name": "Mass Communications",
+                        "type": "checkbox",
+                        "multiple": false,
+                        "dropdown": [],
+                        "group": []
+                    },
+                    {
+                        "title": "TRAFFIC CAMERA",
+                        "name": "Traffic Camera",
+                        "type": "checkbox",
+                        "multiple": false,
+                        "dropdown": [],
+                        "group": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "heading": "Settings",
+        "components": [
+            {
+                "componentData": [
+                    {
+                        "title": "SETTINGS",
+                        "name": "Settings",
+                        "type": "checkbox",
+                        "multiple": true,
+                        "dropdown": [],
+                        "group": [
+                            {
+                                "title": "AUDIT LOG",
+                                "name": "Audit Log",
+                                "type": "checkbox",
+                                "multiple": false,
+                                "dropdown": [],
+                                "group": []
+                            },
+                            {
+                                "title": "USERS",
+                                "name": "Users",
+                                "type": "checkbox",
+                                "multiple": true,
+                                "dropdown": [],
+                                "group": [
+                                    {
+                                        "title": "USER ADD",
+                                        "name": "User Add",
+                                        "type": "checkbox",
+                                        "multiple": false,
+                                        "dropdown": []
+                                    },
+                                    {
+                                        "title": "USER DELETE",
+                                        "name": "User Delete",
+                                        "type": "checkbox",
+                                        "multiple": false,
+                                        "dropdown": []
+                                    },
+                                    {
+                                        "title": "USERS EDIT",
+                                        "name": "Users Edit",
+                                        "type": "checkbox",
+                                        "multiple": false,
+                                        "dropdown": []
+                                    },
+                                    {
+                                        "title": "MAX USERS",
+                                        "name": "Max Users",
+                                        "type": "checkbox",
+                                        "multiple": false,
+                                        "dropdown": [
+                                            {
+                                                "name": "No. Users",
+                                                "optionValue": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "heading": "Alerts",
+        "components": [
+            {
+                "componentData": [
+                    {
+                        "title": "ALERTS",
+                        "name": "Alerts",
+                        "type": "checkbox",
+                        "multiple": true,
+                        "dropdown": [],
+                        "group": [
+                            {
+                                "title": "ALERT MANAGER",
+                                "name": "Alert Manager",
+                                "type": "checkbox",
+                                "multiple": false,
+                                "dropdown": [],
+                                "group": []
+                            },
+                            {
+                                "title": "ALERT RULES",
+                                "name": "Alert Rules",
+                                "type": "checkbox",
+                                "multiple": false,
+                                "dropdown": [
+                                    {
+                                        "name": "No. Alert",
+                                        "optionValue": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+                                    }
+                                ],
+                                "group": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

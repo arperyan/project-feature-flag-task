@@ -1,0 +1,31 @@
+:root {
+    --color-white: #ffffff;
+    --color-dark: #18191d;
+    --color-black: #000000;
+    --color-primary: #5fa0fb;
+    --color-grey: #6f6f6f;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+
+h2 {
+    margin: 1rem;
+}

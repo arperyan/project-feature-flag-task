@@ -1,0 +1,58 @@
+.card {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+    height: 6rem;
+    background-color: var(--color-dark);
+    color: var(--color-white);
+    border-radius: 0.6rem;
+}
+
+h5 {
+    padding-left: 3rem;
+    letter-spacing: 0.2rem;
+}
+
+input[type="checkbox"] {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+label {
+    width: 4.8rem;
+    height: 2rem;
+    display: block;
+    background-color: var(--color-primary);
+    border-radius: 1rem;
+    position: relative;
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 0 0 20px #00000050;
+}
+
+label::after {
+    content: "";
+    width: 1.6rem;
+    height: 1.6rem;
+    background-color: var(--color-white);
+    position: absolute;
+    border-radius: 50%;
+    top: 0.2rem;
+    left: 0.3rem;
+    transition: 0.5s;
+}
+
+input:checked + label:after {
+    left: calc(100% - 0.3rem);
+    transform: translateX(-100%);
+}
+
+input:checked + label {
+    background-color: var(--color-grey);
+}
+
+label:active:after {
+    width: 60px;
+}
